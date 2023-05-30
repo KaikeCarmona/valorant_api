@@ -1,0 +1,29 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(11, 4rem);
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.box-item {
+  background-color: rgba(0, 0, 0, 0.55);
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.box-item img:hover {
+  opacity: 50%;
+  transition: 500ms;
+}
+
+.box-item img {
+  left: 0;
+  width: 100%;
+  /* position: absolute; */
+}

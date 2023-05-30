@@ -1,0 +1,12 @@
+
+.imageteste {
+    width: 550px;
+    height: 550px;
+    background-image: url(https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/background.png);
+    background-repeat: no-repeat;
+    background-size:500px;
+    background-position-y: -110px;
+    background-position-x: 20px;
+  
+  }
+  
